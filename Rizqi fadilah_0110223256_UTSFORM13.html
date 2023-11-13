@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM UTS</title>
+    <style>
+        body{
+            text-align: left;
+        }
+        form{
+            margin: 20px;
+        }
+        fieldset{
+            width: 500px;
+        }
+        input{
+        display: inline-block;
+        margin-bottom: 10px;
+        vertical-align: top;
+        }
+        label{
+            width: 120px;
+            text-align: right;
+            padding-right: 12px;
+        }
+        div{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <form>
+    <label for="">Cari Sivitas Akademika</label>
+    <input type="search" placeholder="search" name="Cari Sivitas Akademika">
+    <br>
+    <label for="Nama_Lengkap" style="display: inline-block;">Nama Lengkap  :</label>
+    <div>Rizqi Fadilah</div>
+    <br>
+    <label for="Asal_Prodi" style="display: inline-block;">Asal Prodi    :</label>
+    <div>Teknik informatika</div>
+    <br>
+    <label for="Status" style="display: inline-block;">Status    :</label>
+    <div>Mahasiswa</div>
+    <br>
+    <label for="" style="display: inline-block;">Jenis kendaraan</label>
+    <input type="radio" name="jk" value="motor">
+    <label for="motor">Motor</label>
+    <input type="radio" name="jk" value="mobil">
+    <label for="mobil">Mobil</label>
+    <br>
+    <label for="" style="display: inline-block;">NoPol</label>
+    <input type="text" name="NoPol" id="NoPol">
+    <br>
+    <label for="" style="display: inline-block;">Merk</label>
+    <input type="text" name="Merk" id="Merk">
+    <br>
+    <label for="" style="display: inline-block;">Upload STNK</label>
+    <input type="text" name="foto" id="foto">
+    <input type="button" value="Browse">
+    <br>
+    <button>Daftar</button>
+    </form>
+    </fieldset>
+</body>
+</html>
